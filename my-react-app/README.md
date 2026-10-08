@@ -73,3 +73,56 @@ export default defineConfig([
 ])
 
 ```
+Lộ trình
+Giai đoạn 1 — React fundamentals
+1. JSX + Component
+2. Props
+3. useState
+4. Event handling
+5. Conditional rendering
+6. List + key
+7. Form + controlled component
+8. useEffect
+9. useRef
+10. Component composition
+Giai đoạn 2 — TypeScript với React
+11. Type Props
+12. Type Event
+13. Type useState
+14. Interface / type
+15. Generic
+16. Custom Hook
+17. Context API
+Giai đoạn 3 — State management
+18. Zustand
+19. Store / selector
+20. Global state
+21. Derived state
+22. Persist state
+Giai đoạn 4 — Server state
+23. TanStack Query
+24. Query / Mutation
+25. Loading / Error
+26. Cache
+27. Invalidation
+28. Pagination
+29. Optimistic update
+Giai đoạn 5 — React thực tế
+30. React Router
+31. Authentication
+32. Protected Route
+33. API
+34. Form validation
+35. Performance
+36. memo, useMemo, useCallback
+37. Code splitting
+38. Error Boundary
+Giai đoạn 6 — Advanced + interview
+39. React rendering
+40. Reconciliation
+41. Virtual DOM
+42. State architecture
+43. Performance debugging
+44. Testing
+45. Project architecture
+46. Frontend interview questions
