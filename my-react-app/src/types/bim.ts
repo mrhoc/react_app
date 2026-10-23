@@ -11,3 +11,16 @@ export interface BIMObject {
   type: BIMObjectType;
   floor: number;
 }
+
+export interface User {
+  id: number;
+  name: string;
+  username: string;
+  email: string;
+  phone: string;
+  website: string;
+  company: {
+    name: string;
+  };
+
+}

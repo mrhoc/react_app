@@ -1,3 +1,5 @@
+@import 'tailwindcss';
+
 :root {
   --text: #6b6375;
   --text-h: #08060d;
@@ -52,22 +54,18 @@
 
 #root {
   width: 100%;
-  height: 100vh;
   margin: 0;
   padding: 0;
   text-align: left;
   border-inline: none;
   min-height: 100svh;
-  display: flex;
-  flex-direction: column;
   box-sizing: border-box;
-  overflow: hidden;
 }
 
 body {
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 h1,

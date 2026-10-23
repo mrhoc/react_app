@@ -9,44 +9,6 @@ interface BIMObject {
   floor: number;
 }
 
-// Component cho từng mesh có thể click được
-interface ClickableMeshProps {
-  position: [number, number, number];
-  args?: number[];
-  color: string;
-  objectData: BIMObject;
-  isSelected: boolean;
-  onClick: (obj: BIMObject) => void;
-}
-
-function ClickableMesh({
-  position,
-  args,
-  color,
-  objectData,
-  isSelected,
-  onClick,
-}: ClickableMeshProps) {
-  const highlightColor = "#ff6b00";
-
-  return (
-    <mesh
-      position={position}
-      onClick={(e) => {
-        e.stopPropagation();
-        onClick(objectData);
-      }}
-    >
-      <boxGeometry args={args} />
-      <meshStandardMaterial
-        color={isSelected ? highlightColor : color}
-        emissive={isSelected ? highlightColor : "#000000"}
-        emissiveIntensity={isSelected ? 0.3 : 0}
-      />
-    </mesh>
-  );
-}
-
 // Component Floor với click
 interface FloorProps {
   y: number;
